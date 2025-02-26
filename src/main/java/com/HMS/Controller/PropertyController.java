@@ -11,12 +11,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/properties")
-// http://localhost:8080/api/v1/properties/search-hotels
-public class propertyController {
+public class PropertyController {
 
     private PropertyRepository propertyRepository;
 
-    public propertyController(PropertyRepository propertyRepository) {
+    public PropertyController(PropertyRepository propertyRepository) {
         this.propertyRepository = propertyRepository;
     }
 
